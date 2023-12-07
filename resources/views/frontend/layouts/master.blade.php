@@ -21,7 +21,7 @@
  <!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
-  @include('frontend.layouts.partials.hero')
+  {{-- @include('frontend.layouts.partials.hero') --}}
  <!-- End Hero -->
 
  <!-- start #main -->
