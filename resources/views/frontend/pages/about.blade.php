@@ -10,8 +10,8 @@
 
             <div class="row">
                 <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
-                    <img src="{{ asset('frontend/assets/img/about.jpg') }}" class="img-fluid" alt="" style="height: 650px">
-                    <img src="{{ asset('frontend/assets/img/about.jpg') }}" class="img-fluid mt-5" alt="" style="height: 650px">
+                    <img src="{{ asset('frontend/assets/img/about3.jpeg') }}" class="img-fluid" alt="" style="height: 650px; width:600px">
+                    <img src="{{ asset('frontend/assets/img/about1.png') }}" class="img-fluid mt-5" alt="" style="height: 650px">
                 </div>
                 <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
                     <h3>Welcome to EteQ Consultants: Where Innovation Meets Excellence!</h3>

@@ -16,3 +16,8 @@
 
 <!-- Template Main CSS File -->
 <link href="{{asset('frontend/assets/css/style.css')}}" rel="stylesheet">
+
+<style>
+
+
+</style>
