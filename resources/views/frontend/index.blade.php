@@ -10,8 +10,8 @@
 
                 <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="150">
                     <div class="col-xl-6 col-lg-8">
-                        <h1>Powerful Digital Solutions With <span>EtQ.</span></h1>
-                        <h2>We are team of talented AI </h2>
+                        <h1>EteQ Consultants</h1>
+                        <h2>Crafting Intelligence, Shaping Success </h2>
                     </div>
                 </div>
 
@@ -427,41 +427,38 @@
                             <div class="row">
                                 <div class="col-md-6 d-md-flex align-items-md-stretch">
                                     <div class="count-box">
-                                        <i class="bi bi-emoji-smile"></i>
-                                        <span data-purecounter-start="0" data-purecounter-end="65"
-                                            data-purecounter-duration="2" class="purecounter"></span>
-                                        <p><strong>Happy Clients</strong> consequuntur voluptas nostrum aliquid ipsam
-                                            architecto ut.</p>
+                                        <i class="bi bi-tv"></i>>
+                                        {{-- <span data-purecounter-start="0" data-purecounter-end="65"
+                                            data-purecounter-duration="2" class="purecounter"></span> --}}
+                                        <p><strong>Technology</strong> 
+                                             is the ever-evolving tool humanity wields to turn imagination into reality.</p>
                                     </div>
                                 </div>
 
                                 <div class="col-md-6 d-md-flex align-items-md-stretch">
                                     <div class="count-box">
-                                        <i class="bi bi-journal-richtext"></i>
-                                        <span data-purecounter-start="0" data-purecounter-end="85"
-                                            data-purecounter-duration="2" class="purecounter"></span>
-                                        <p><strong>Projects</strong> adipisci atque cum quia aspernatur totam laudantium et
-                                            quia dere tan</p>
+                                        <i class="bi bi-backpack"></i>
+                                        {{-- <span data-purecounter-start="0" data-purecounter-end="85"
+                                            data-purecounter-duration="2" class="purecounter"></span> --}}
+                                        <p><strong>Education</strong> is the compass that guides minds, unlocking the potential for growth and understanding in every individual.</p>
                                     </div>
                                 </div>
 
                                 <div class="col-md-6 d-md-flex align-items-md-stretch">
                                     <div class="count-box">
-                                        <i class="bi bi-clock"></i>
-                                        <span data-purecounter-start="0" data-purecounter-end="35"
-                                            data-purecounter-duration="4" class="purecounter"></span>
-                                        <p><strong>Years of experience</strong> aut commodi quaerat modi aliquam nam ducimus
-                                            aut voluptate non vel</p>
+                                        <i class="bi bi-file-medical"></i>
+                                        {{-- <span data-purecounter-start="0" data-purecounter-end="35"
+                                            data-purecounter-duration="4" class="purecounter"></span> --}}
+                                        <p><strong>Health Care</strong> is the guardian of well-being, where science and compassion converge to nurture and restore lives.</p>
                                     </div>
                                 </div>
 
                                 <div class="col-md-6 d-md-flex align-items-md-stretch">
                                     <div class="count-box">
-                                        <i class="bi bi-award"></i>
-                                        <span data-purecounter-start="0" data-purecounter-end="20"
-                                            data-purecounter-duration="4" class="purecounter"></span>
-                                        <p><strong>Awards</strong> rerum asperiores dolor alias quo reprehenderit eum et
-                                            nemo pad der</p>
+                                        <i class="bi bi-collection-play-fill"></i>
+                                        {{-- <span data-purecounter-start="0" data-purecounter-end="20"
+                                            data-purecounter-duration="4" class="purecounter"></span> --}}
+                                        <p><strong>Entertainment and Media</strong> weave the tapestry of modern culture, reflecting and shaping society's stories, dreams, and realities.</p>
                                     </div>
                                 </div>
                             </div>

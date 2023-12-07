@@ -1,7 +1,7 @@
 @extends('frontend.layouts.master')
 
 @section('title')
-    Services - Eteqconsultants
+    Services - Eteq consultants
 @endsection
 @section('frontend_panel')
     <!-- ======= Services Section ======= -->

@@ -6,7 +6,7 @@
           <div class="col-lg-4 col-md-6">
             <div class="footer-info">
               {{-- <a class="navbar-brand" href="{{route('frontend.index')}}"><img src="{{asset('frontend/assets/img/2.png')}}" alt="image" ></a> --}}
-              <h3>EtQ<span>.</span></h3>
+              <h3>EteQ Consultants<span>.</span></h3>
               <p>
                 3050 Post Oak Boulevard Suite 510, <br>Houston, TX 77056, USA<br><br>
                 <strong>Phone:</strong> (832) 269-4474<br>
