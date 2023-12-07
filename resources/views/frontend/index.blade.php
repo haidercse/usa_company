@@ -10,8 +10,8 @@
 
                 <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="150">
                     <div class="col-xl-6 col-lg-8">
-                        <h1>Powerful Digital Solutions With Gp<span>.</span></h1>
-                        <h2>We are team of talented digital marketers</h2>
+                        <h1>Powerful Digital Solutions With <span>EtQ.</span></h1>
+                        <h2>We are team of talented AI </h2>
                     </div>
                 </div>
 
@@ -19,31 +19,31 @@
                     <div class="col-xl-2 col-md-4">
                         <div class="icon-box">
                             <i class="ri-store-line"></i>
-                            <h3><a href="">Lorem Ipsum</a></h3>
+                            <h3><a href="{{route('pages','services')}}">Machine Learning Mastery</a></h3>
                         </div>
                     </div>
                     <div class="col-xl-2 col-md-4">
                         <div class="icon-box">
                             <i class="ri-bar-chart-box-line"></i>
-                            <h3><a href="">Dolor Sitema</a></h3>
+                            <h3><a href="{{route('pages','services')}}">Visionary Computer Vision Solutions</a></h3>
                         </div>
                     </div>
                     <div class="col-xl-2 col-md-4">
                         <div class="icon-box">
                             <i class="ri-calendar-todo-line"></i>
-                            <h3><a href="">Sedare Perspiciatis</a></h3>
+                            <h3><a href="{{route('pages','services')}}">Strategic Data Analysis</a></h3>
                         </div>
                     </div>
                     <div class="col-xl-2 col-md-4">
                         <div class="icon-box">
                             <i class="ri-paint-brush-line"></i>
-                            <h3><a href="">Magni Dolores</a></h3>
+                            <h3><a href="{{route('pages','services')}}">Tailored Solutions for Every Need</a></h3>
                         </div>
                     </div>
                     <div class="col-xl-2 col-md-4">
                         <div class="icon-box">
                             <i class="ri-database-2-line"></i>
-                            <h3><a href="">Nemos Enimade</a></h3>
+                            <h3><a href="{{route('pages','services')}}">NLP Wizardry</a></h3>
                         </div>
                     </div>
                 </div>
@@ -420,10 +420,9 @@
                     <div class="col-xl-7 ps-4 ps-lg-5 pe-4 pe-lg-1 d-flex align-items-stretch" data-aos="fade-left"
                         data-aos-delay="100">
                         <div class="content d-flex flex-column justify-content-center">
-                            <h3>Voluptatem dignissimos provident quasi</h3>
+                            <h3>Industries We Serve</h3>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                                labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
+                                EteQ Consultants has the flexibility and expertise to serve a diverse range of industries. Our tailored solutions can benefit businesses across:
                             </p>
                             <div class="row">
                                 <div class="col-md-6 d-md-flex align-items-md-stretch">
@@ -687,23 +686,24 @@
                             <div class="address">
                                 <i class="bi bi-geo-alt"></i>
                                 <h4>Location:</h4>
-                                <p>A108 Adam Street, New York, NY 535022</p>
+                                <p>3050 Post Oak Boulevard Suite 510, Houston, TX 77056, USA</p>
                             </div>
-
+        
                             <div class="email">
                                 <i class="bi bi-envelope"></i>
                                 <h4>Email:</h4>
-                                <p>info@example.com</p>
+                                <p>info@eteqgroup.com</p>
                             </div>
-
+        
                             <div class="phone">
                                 <i class="bi bi-phone"></i>
                                 <h4>Call:</h4>
-                                <p>+1 5589 55488 55s</p>
+                                <p>(832) 269-4474</p>
+                                    <p>832-2694474</p>
                             </div>
-
+        
                         </div>
-
+        
                     </div>
 
                     <div class="col-lg-8 mt-5 mt-lg-0">

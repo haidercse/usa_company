@@ -1,240 +1,381 @@
 @extends('frontend.layouts.master')
-
 @section('title')
-    Eteq consultants
+    Portfolio - Eteqconsultance
 @endsection
 @section('frontend_panel')
-    <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio">
-        <div class="container" data-aos="fade-up">
-
+    <section id="portfolio" class="services mt-5">
+        <div class="container">
             <div class="section-title">
                 <h2>Portfolio</h2>
                 <p>Check our Portfolio</p>
             </div>
+            {{-- 1 --}}
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="message-box">
+                        {{-- <h4>About Us</h4> --}}
+                        <h2>DoctorBot</h2>
+                        {{-- <p class="lead">Quisque eget nisl id nulla sagittis auctor quis id. Aliquam quis vehicula
+                        enim, non aliquam risus. Sed a tellus quis mi rhoncus dignissim.</p> --}}
 
-            <div class="row" data-aos="fade-up" data-aos-delay="100">
-                <div class="col-lg-12 d-flex justify-content-center">
-                    <ul id="portfolio-flters">
-                        <li data-filter="*" class="filter-active">All</li>
-                        <li data-filter=".filter-app">App</li>
-                        <li data-filter=".filter-card">Card</li>
-                        <li data-filter=".filter-web">Web</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                    <div class="portfolio-wrap">
-                        <img src="{{ asset('frontend/assets/img/portfolio/portfolio-1.jpg') }}" class="img-fluid"
-                            alt="">
-                        <div class="portfolio-info">
-                            <h4>App 1</h4>
-                            <p>App</p>
-                            <div class="portfolio-links">
-                                <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery"
-                                    class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                    <div class="portfolio-wrap">
-                        <img src="{{ asset('frontend/assets/img/portfolio/portfolio-2.jpg') }}" class="img-fluid"
-                            alt="">
-                        <div class="portfolio-info">
-                            <h4>Web 3</h4>
-                            <p>Web</p>
-                            <div class="portfolio-links">
-                                <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery"
-                                    class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                    <div class="portfolio-wrap">
-                        <img src="{{ asset('frontend/assets/img/portfolio/portfolio-3.jpg') }}" class="img-fluid"
-                            alt="">
-                        <div class="portfolio-info">
-                            <h4>App 2</h4>
-                            <p>App</p>
-                            <div class="portfolio-links">
-                                <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery"
-                                    class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-                    <div class="portfolio-wrap">
-                        <img src="{{ asset('frontend/assets/img/portfolio/portfolio-4.jpg') }}" class="img-fluid"
-                            alt="">
-                        <div class="portfolio-info">
-                            <h4>Card 2</h4>
-                            <p>Card</p>
-                            <div class="portfolio-links">
-                                <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery"
-                                    class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                    <div class="portfolio-wrap">
-                        <img src="{{ asset('frontend/assets/img/portfolio/portfolio-5.jpg') }}" class="img-fluid"
-                            alt="">
-                        <div class="portfolio-info">
-                            <h4>Web 2</h4>
-                            <p>Web</p>
-                            <div class="portfolio-links">
-                                <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery"
-                                    class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                    <div class="portfolio-wrap">
-                        <img src="{{ asset('frontend/assets/img/portfolio/portfolio-6.jpg') }}" class="img-fluid"
-                            alt="">
-                        <div class="portfolio-info">
-                            <h4>App 3</h4>
-                            <p>App</p>
-                            <div class="portfolio-links">
-                                <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery"
-                                    class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-                    <div class="portfolio-wrap">
-                        <img src="{{ asset('frontend/assets/img/portfolio/portfolio-7.jpg') }}" class="img-fluid"
-                            alt="">
-                        <div class="portfolio-info">
-                            <h4>Card 1</h4>
-                            <p>Card</p>
-                            <div class="portfolio-links">
-                                <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery"
-                                    class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-                    <div class="portfolio-wrap">
-                        <img src="{{ asset('frontend/assets/img/portfolio/portfolio-8.jpg') }}" class="img-fluid"
-                            alt="">
-                        <div class="portfolio-info">
-                            <h4>Card 3</h4>
-                            <p>Card</p>
-                            <div class="portfolio-links">
-                                <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery"
-                                    class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                    <div class="portfolio-wrap">
-                        <img src="{{ asset('frontend/assets/img/portfolio/portfolio-9.jpg') }}" class="img-fluid"
-                            alt="">
-                        <div class="portfolio-info">
-                            <h4>Web 3</h4>
-                            <p>Web</p>
-                            <div class="portfolio-links">
-                                <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery"
-                                    class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
-    </section><!-- End Portfolio Section -->
-
-    <!-- ======= Counts Section ======= -->
-    <section id="counts" class="counts">
-        <div class="container" data-aos="fade-up">
-
-            <div class="row no-gutters">
-                <div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start"
-                    data-aos="fade-right" data-aos-delay="100"></div>
-                <div class="col-xl-7 ps-4 ps-lg-5 pe-4 pe-lg-1 d-flex align-items-stretch" data-aos="fade-left"
-                    data-aos-delay="100">
-                    <div class="content d-flex flex-column justify-content-center">
-                        <h3>Voluptatem dignissimos provident quasi</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
+                        <p> EteQ Group presents DoctorBot, an AI-powered virtual medical specialist that mimics the
+                            diagnostic capabilities of a human doctor. DoctorBot's primary focus is on disease diagnosis,
+                            relying on a thorough assessment of patients' symptoms, medical history, and signs, rather than
+                            prescribing treatments.</p>
+                        <p> Our virtual doctor begins by taking the patient's statement for initial suspicion and proceeds
+                            to ask essential questions for in-depth analysis. EteQ Group is committed to enhancing
+                            healthcare through cutting-edge technology, and DoctorBot exemplifies our dedication to accurate
+                            and efficient medical diagnostics.
+                            We believe in leveraging AI to support healthcare professionals and patients alike, ensuring
+                            more precise and timely disease identification. With EteQ Group's DoctorBot, you have a reliable
+                            partner in the quest for accurate diagnosis and medical analysis.
                         </p>
-                        <div class="row">
-                            <div class="col-md-6 d-md-flex align-items-md-stretch">
-                                <div class="count-box">
-                                    <i class="bi bi-emoji-smile"></i>
-                                    <span data-purecounter-start="0" data-purecounter-end="65"
-                                        data-purecounter-duration="2" class="purecounter"></span>
-                                    <p><strong>Happy Clients</strong> consequuntur voluptas nostrum aliquid ipsam
-                                        architecto ut.</p>
-                                </div>
-                            </div>
 
-                            <div class="col-md-6 d-md-flex align-items-md-stretch">
-                                <div class="count-box">
-                                    <i class="bi bi-journal-richtext"></i>
-                                    <span data-purecounter-start="0" data-purecounter-end="85"
-                                        data-purecounter-duration="2" class="purecounter"></span>
-                                    <p><strong>Projects</strong> adipisci atque cum quia aspernatur totam laudantium et
-                                        quia dere tan</p>
-                                </div>
-                            </div>
+                        {{-- <a href="#services" class="btn btn-light btn-radius btn-brd grd1">Learn More</a> --}}
+                    </div><!-- end messagebox -->
+                </div><!-- end col -->
 
-                            <div class="col-md-6 d-md-flex align-items-md-stretch">
-                                <div class="count-box">
-                                    <i class="bi bi-clock"></i>
-                                    <span data-purecounter-start="0" data-purecounter-end="35"
-                                        data-purecounter-duration="4" class="purecounter"></span>
-                                    <p><strong>Years of experience</strong> aut commodi quaerat modi aliquam nam ducimus
-                                        aut voluptate non vel</p>
-                                </div>
-                            </div>
+                <div class="col-md-6">
+                    <div class="post-media wow fadeIn">
+                        <img src="{{ asset('frontend/assets/img/bot.jpg') }}" alt="" class="img-fluid">
+                        
+                    </div><!-- end media -->
+                </div><!-- end col -->
+            </div><!-- end row -->
+            <hr class="hr1">
+            {{-- 2 --}}
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="post-media wow fadeIn">
+                        <img src="{{ asset('frontend/assets/img/organizer.jpg') }}" alt="" class="img-fluid">
+                    </div><!-- end media -->
+                </div><!-- end col -->
 
-                            <div class="col-md-6 d-md-flex align-items-md-stretch">
-                                <div class="count-box">
-                                    <i class="bi bi-award"></i>
-                                    <span data-purecounter-start="0" data-purecounter-end="20"
-                                        data-purecounter-duration="4" class="purecounter"></span>
-                                    <p><strong>Awards</strong> rerum asperiores dolor alias quo reprehenderit eum et
-                                        nemo pad der</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!-- End .content-->
-                </div>
-            </div>
+                <div class="col-md-6">
+                    <div class="message-box">
+                        {{-- <h4>WHAT WE DO</h4> --}}
+                        <h2>Digital Organizer</h2>
 
-        </div>
-    </section><!-- End Counts Section -->
+                        <p>EteQ Group introduces the Digital Organizer, an innovative solution designed to streamline the
+                            organization of vast amounts of disorganized data. This advanced tool efficiently categorizes
+                            various types of documents simply by processing them.</p>
+                        <p> Our project addresses the challenges posed by the overwhelming volumes of unstructured data,
+                            providing a comprehensive and automated system for document classification. EteQ Group is
+                            committed to harnessing technology to simplify complex data management tasks.
+                            With the Digital Organizer, we empower businesses to make sense of their information, enhance
+                            efficiency, and improve data accessibility. EteQ Group's expertise in data management and
+                            organization ensures that you have a reliable partner to tackle the intricacies of data
+                            classification.
+                        </p>
+
+
+
+                        {{-- <a href="#services" class="btn btn-light btn-radius btn-brd grd1">Learn More</a> --}}
+                    </div><!-- end messagebox -->
+                </div><!-- end col -->
+            </div><!-- end row -->
+            <hr class="hr1">
+
+            {{-- 3 --}}
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="message-box">
+                        {{-- <h4>About Us</h4> --}}
+                        <h2>Picker</h2>
+                        {{-- <p class="lead">Quisque eget nisl id nulla sagittis auctor quis id. Aliquam quis vehicula
+                        enim, non aliquam risus. Sed a tellus quis mi rhoncus dignissim.</p> --}}
+
+                        <p> EteQ Group proudly presents "Picker," an intelligent decision support system tailored for
+                            optimizing movie type and schedule selection to boost ticket sales. Picker is a multi-criteria
+                            decision support system that combines advanced algorithms and data-driven insights to assist
+                            moviegoers in making informed choices.</p>
+                        <p> Our expertise in data analysis and decision support technology is channeled through Picker to
+                            enhance the cinema-going experience. EteQ Group is committed to delivering innovative solutions
+                            that improve decision-making and revenue optimization in the entertainment industry.
+                            Picker's cutting-edge capabilities are designed to cater to the diverse preferences and needs of
+                            movie enthusiasts, ensuring a seamless and personalized experience. With EteQ Group's Picker,
+                            you have a trusted partner in maximizing ticket sales and enhancing customer satisfaction.
+                        </p>
+
+                        {{-- <a href="#services" class="btn btn-light btn-radius btn-brd grd1">Learn More</a> --}}
+                    </div><!-- end messagebox -->
+                </div><!-- end col -->
+
+                <div class="col-md-6">
+                    <div class="post-media wow fadeIn">
+                        <img src="{{ asset('frontend/assets/img/picker.png') }}" alt="" class="img-fluid">
+                        
+                    </div><!-- end media -->
+                </div><!-- end col -->
+            </div><!-- end row -->
+            <hr class="hr1">
+            {{-- 4 --}}
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="post-media wow fadeIn">
+                        <img src="{{ asset('frontend/assets/img/ePS.jpg') }}" alt="" class="img-fluid" style="height: 350px;width:100%">
+                    </div><!-- end media -->
+                </div><!-- end col -->
+
+                <div class="col-md-6">
+                    <div class="message-box">
+                        {{-- <h4>WHAT WE DO</h4> --}}
+                        <h2>ePS (personal secretary)</h2>
+
+                        <p>EteQ Group introduces the ePS (Electronic Personal Secretary), a cutting-edge solution that
+                            offers personalized secretarial and administrative support with efficiency and optimization at
+                            its core. The ePS excels in managing time, daily tasks, scheduling meetings, handling
+                            correspondence, and taking notes.</p>
+                        <p>Our Digital Personal Secretary leverages advanced data analysis techniques to prioritize tasks,
+                            ensuring the most critical items are addressed promptly. It also has the capability to
+                            automatically notify users about the status of important matters for seamless communication and
+                            task management. EteQ Group is dedicated to revolutionizing personal and professional
+                            organization, providing innovative solutions for enhanced productivity and effective time
+                            management. With the ePS, you have a reliable partner in optimizing your daily operations and
+                            priorities.
+                        </p>
+
+
+
+                        {{-- <a href="#services" class="btn btn-light btn-radius btn-brd grd1">Learn More</a> --}}
+                    </div><!-- end messagebox -->
+                </div><!-- end col -->
+            </div><!-- end row -->
+            <hr class="hr1">
+            {{-- 5 --}}
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="message-box">
+                        {{-- <h4>About Us</h4> --}}
+                        <h2>Digital Dermatologist</h2>
+                        {{-- <p class="lead">Quisque eget nisl id nulla sagittis auctor quis id. Aliquam quis vehicula
+                        enim, non aliquam risus. Sed a tellus quis mi rhoncus dignissim.</p> --}}
+
+                        <p> EteQ Group proudly introduces the Digital Dermatologist, a groundbreaking system harnessing deep
+                            learning techniques to diagnose skin diseases with remarkable accuracy. Our system has been
+                            meticulously developed using extensive data and consultation with dermatologists, ensuring a
+                            prognosis accuracy rate of up to 99.87%.</p>
+                        <p>The Digital Dermatologist simplifies the diagnostic process, requiring nothing more than an image
+                            captured by a camera to identify and classify skin diseases. EteQ Group is dedicated to
+                            advancing healthcare through innovative technology, providing reliable and efficient solutions
+                            for medical professionals and patients.
+                            With our Digital Dermatologist, you have a trusted partner in achieving precise and timely skin
+                            disease diagnoses, revolutionizing the field of dermatology and improving patient care.
+                        </p>
+
+                        {{-- <a href="#services" class="btn btn-light btn-radius btn-brd grd1">Learn More</a> --}}
+                    </div><!-- end messagebox -->
+                </div><!-- end col -->
+
+                <div class="col-md-6">
+                    <div class="post-media wow fadeIn">
+                        <img src="{{ asset('frontend/assets/img/digital1.webp') }}" alt="" class="img-fluid mt-5">
+                        
+                    </div><!-- end media -->
+                </div><!-- end col -->
+            </div><!-- end row -->
+            <hr class="hr1">
+            {{-- 6 --}}
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="post-media wow fadeIn">
+                        <img src="{{ asset('frontend/assets/img/virtual.jpg') }}" alt="" class="img-fluid">
+                    </div><!-- end media -->
+                </div><!-- end col -->
+
+                <div class="col-md-6">
+                    <div class="message-box">
+                        {{-- <h4>WHAT WE DO</h4> --}}
+                        <h2>Virtual CareTaker</h2>
+
+                        <p>EteQ Group presents the Virtual CareTaker, an innovative deep learning-based surveillance
+                            application designed for the continuous monitoring of children and older individuals. This
+                            intelligent system employs advanced technology to recognize and analyze movements, promptly
+                            alerting the designated owner in the event of any irregularity.</p>
+                        <p>Our commitment to leveraging cutting-edge technology for the well-being of vulnerable populations
+                            drives the development of Virtual CareTaker. EteQ Group is dedicated to ensuring the safety and
+                            security of those in need through reliable and efficient monitoring solutions.
+                            With the Virtual CareTaker, you have a trusted partner in providing constant care and peace of
+                            mind for families and caregivers. EteQ Group's expertise in deep learning and surveillance
+                            technology ensures a dependable and proactive approach to monitoring the welfare of your loved
+                            ones.
+                        </p>
+
+
+
+                        {{-- <a href="#services" class="btn btn-light btn-radius btn-brd grd1">Learn More</a> --}}
+                    </div><!-- end messagebox -->
+                </div><!-- end col -->
+            </div><!-- end row -->
+            <hr class="hr1">
+            {{-- 7 --}}
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="message-box">
+                        {{-- <h4>About Us</h4> --}}
+                        <h2>Gal Guard</h2>
+                        {{-- <p class="lead">Quisque eget nisl id nulla sagittis auctor quis id. Aliquam quis vehicula
+                        enim, non aliquam risus. Sed a tellus quis mi rhoncus dignissim.</p> --}}
+
+                        <p> EteQ Group proudly presents Gal Guard, an intelligent mobile application created to empower
+                            girls and women in challenging situations. This innovative app allows users to call the police
+                            or request assistance by simply shaking their smartphone, triggering a seamless process of
+                            collecting essential information and dispatching help to their exact location.</p>
+                        <p> Our commitment to using technology for safety and well-being drives the development of Gal
+                            Guard. EteQ Group is dedicated to providing a reliable and efficient solution for personal
+                            safety, giving users peace of mind and a quick means to summon help in times of need.
+                            With Gal Guard, you have a trusted partner in ensuring the safety of girls and women, promoting
+                            security and peace of mind. EteQ Group's expertise in mobile app development and safety
+                            technology underscores our commitment to creating a safer world for all.
+                        </p>
+
+                        {{-- <a href="#services" class="btn btn-light btn-radius btn-brd grd1">Learn More</a> --}}
+                    </div><!-- end messagebox -->
+                </div><!-- end col -->
+
+                <div class="col-md-6">
+                    <div class="post-media wow fadeIn">
+                        <img src="{{ asset('frontend/assets/img/gal.png') }}" alt="" class="img-fluid mt-5">
+                        
+                    </div><!-- end media -->
+                </div><!-- end col -->
+            </div><!-- end row -->
+            <hr class="hr1">
+
+
+            {{-- 8 --}}
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="post-media wow fadeIn">
+                        <img src="{{ asset('frontend/assets/img/promoter1.jpg') }}" alt="" class="img-fluid" style="height: 350px;width:100%">
+                    </div><!-- end media -->
+                </div><!-- end col -->
+
+                <div class="col-md-6">
+                    <div class="message-box">
+                        {{-- <h4>WHAT WE DO</h4> --}}
+                        <h2>Promoter</h2>
+
+                        <p>EteQ Group introduces the "Promoter," an advanced artificial sales promoter dedicated to
+                            showcasing products through exhibitions, introductions, and generating public interest. This
+                            Digital Promoter plays a pivotal role in establishing a positive brand presence and crafting
+                            innovative marketing strategies.</p>
+                        <p>With a focus on boosting brand visibility and engagement, EteQ Group's Promoter harnesses
+                            cutting-edge technology to captivate audiences and drive marketing success. We are committed to
+                            delivering tailored solutions that elevate marketing campaigns and foster brand growth.
+                            The Promoter is your trusted partner for creating a lasting impact in the market, ensuring a
+                            strong and innovative approach to product promotion. EteQ Group is here to help you achieve your
+                            marketing goals and elevate your brand's presence.
+                        </p>
+
+
+
+                        {{-- <a href="#services" class="btn btn-light btn-radius btn-brd grd1">Learn More</a> --}}
+                    </div><!-- end messagebox -->
+                </div><!-- end col -->
+            </div><!-- end row -->
+            <hr class="hr1">
+
+            {{-- 9 --}}
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="message-box">
+                        {{-- <h4>About Us</h4> --}}
+                        <h2>The Recruiter</h2>
+                        {{-- <p class="lead">Quisque eget nisl id nulla sagittis auctor quis id. Aliquam quis vehicula
+                        enim, non aliquam risus. Sed a tellus quis mi rhoncus dignissim.</p> --}}
+
+                        <p> EteQ Group proudly introduces "The Recruiter," an intelligent recruitment system that
+                            meticulously evaluates candidates' strengths and capabilities, utilizing predefined recruitment
+                            appraisal parameters to identify the most suitable candidates for your organization.</p>
+                        <p>Our commitment to leveraging advanced technology for effective talent acquisition underscores the
+                            development of The Recruiter. EteQ Group is dedicated to streamlining the recruitment process,
+                            ensuring a seamless and data-driven approach to identifying top talent.
+                            With The Recruiter, you have a trusted partner in optimizing your recruitment efforts and
+                            finding the perfect fit for your team. EteQ Group's expertise in recruitment technology ensures
+                            a reliable and efficient solution for your talent acquisition needs.
+                        </p>
+
+                        {{-- <a href="#services" class="btn btn-light btn-radius btn-brd grd1">Learn More</a> --}}
+                    </div><!-- end messagebox -->
+                </div><!-- end col -->
+
+                <div class="col-md-6">
+                    <div class="post-media wow fadeIn">
+                        <img src="{{ asset('frontend/assets/img/recruiment.jpg') }}" alt="" class="img-fluid">
+                        
+                    </div><!-- end media -->
+                </div><!-- end col -->
+            </div><!-- end row -->
+            <hr class="hr1">
+
+            {{-- 10 --}}
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="post-media wow fadeIn">
+                        <img src="{{ asset('frontend/assets/img/employee_evaluation.jpg') }}" alt=""
+                            class="img-fluid">
+                    </div><!-- end media -->
+                </div><!-- end col -->
+
+                <div class="col-md-6">
+                    <div class="message-box">
+                        {{-- <h4>WHAT WE DO</h4> --}}
+                        <h2>The Employee Evaluation Assistant</h2>
+
+                        <p>EteQ Group proudly presents "The Employee Evaluation Assistant," a specialized system that
+                            thoroughly assesses an employee's performance through the analysis of various evaluation
+                            metrics. This solution takes into account relevant employee data to evaluate their commitment
+                            and contribution to the organization or association.</p>
+                        <p> Our commitment to leveraging technology for enhanced employee evaluation drives the development
+                            of The Employee Evaluation Assistant. EteQ Group is dedicated to providing reliable and
+                            efficient tools to help organizations make informed decisions regarding their workforce.
+                            With The Employee Evaluation Assistant, you have a trusted partner in optimizing your employee
+                            assessment processes and promoting a culture of excellence within your organization. EteQ
+                            Group's expertise in HR technology ensures a comprehensive and data-driven approach to
+                            performance evaluation.
+                        </p>
+
+
+
+                        {{-- <a href="#services" class="btn btn-light btn-radius btn-brd grd1">Learn More</a> --}}
+                    </div><!-- end messagebox -->
+                </div><!-- end col -->
+            </div><!-- end row -->
+            <hr class="hr1">
+
+            {{-- 11 --}}
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="message-box">
+                        {{-- <h4>About Us</h4> --}}
+                        <h2>Accounting Software</h2>
+                        {{-- <p class="lead">Quisque eget nisl id nulla sagittis auctor quis id. Aliquam quis vehicula
+                        enim, non aliquam risus. Sed a tellus quis mi rhoncus dignissim.</p> --}}
+
+                        <p> EteQ Group offers a robust Accounting Software solution that includes a comprehensive Chart of
+                            Accounts and a Double Entry system. This software streamlines financial operations with features
+                            for receiving, making payments, conducting contra transactions, and managing journal entries.
+                        </p>
+                        <p>Our commitment to providing efficient and user-friendly financial tools drives the development of
+                            this Accounting Software. EteQ Group aims to empower businesses with accurate financial
+                            management and reporting capabilities.
+                            With our Accounting Software, you have a trusted partner in simplifying your financial processes
+                            and ensuring compliance with accounting standards. EteQ Group's expertise in financial
+                            technology guarantees a reliable and comprehensive solution for your accounting needs.
+                        </p>
+
+                        {{-- <a href="#services" class="btn btn-light btn-radius btn-brd grd1">Learn More</a> --}}
+                    </div><!-- end messagebox -->
+                </div><!-- end col -->
+
+                <div class="col-md-6">
+                    <div class="post-media wow fadeIn">
+                        <img src="{{ asset('frontend/assets/img/account.jpg') }}" alt="" class="img-fluid">
+                        
+                    </div><!-- end media -->
+                </div><!-- end col -->
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </section><!-- end section -->
 @endsection

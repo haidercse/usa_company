@@ -1,11 +1,11 @@
 @extends('frontend.layouts.master')
 
 @section('title')
-    Eteq consultants
+    About - Eteqconsultants
 @endsection
 @section('frontend_panel')
     <!-- ======= About Section ======= -->
-    <section id="about" class="about">
+    <section id="about" class="about mt-5">
         <div class="container" data-aos="fade-up">
 
             <div class="row">

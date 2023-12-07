@@ -1,16 +1,13 @@
-<header id="header" class="fixed-top ">
-    <div class="container d-flex align-items-center justify-content-lg-between">
+<header id="header" class="fixed-top" style="background: greenyellow!important">
+    <div class="container d-flex align-items-center justify-content-lg-between" >
 
         {{-- <h1 class="logo me-auto me-lg-0"><a href="{{route('frontend.index')}}">EQ<span>.</span></a></h1> --}}
         
         <a class="navbar-brand" href="{{route('frontend.index')}}"><img src="{{asset('frontend/assets/img/2.png')}}" alt="image" ></a>
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
-       @php
-          
-       @endphp
-        <nav id="navbar" class="navbar order-last order-lg-0">
-            <ul>
+        
+       
+        <nav id="navbar" class="navbar order-last order-lg-0"  >
+            <ul style="color: black">
                 <li><a class="nav-link scrollto {{Route::is('frontend.index') ? 'active': ''}}" href="{{route('frontend.index')}}">Home</a></li>
                 <li><a class="nav-link scrollto {{Request::is('about') ? 'active': ''}} " href="{{ route('pages', 'about') }}">About</a></li>
                 <li><a class="nav-link scrollto {{Request::is('services') ? 'active': ''}}" href="{{ route('pages', 'services') }}">Services</a></li>
@@ -37,9 +34,9 @@
                 <li><a class="nav-link scrollto {{Request::is('contact') ? 'active': ''}}" href="{{route('pages','contact')}}">Contact</a></li>
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
-        </nav><!-- .navbar -->
+        </nav>
 
-        <a href="#about" class="get-started-btn scrollto">Get Started</a>
+        {{-- <a href="#about" class="get-started-btn scrollto">Get Started</a> --}}
 
     </div>
 </header>

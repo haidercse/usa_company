@@ -1,12 +1,12 @@
 @extends('frontend.layouts.master')
 
 @section('title')
-    Eteq consultants
+    Contact - Eteqconsultants
 @endsection
 @section('frontend_panel')
 
 <!-- ======= Contact Section ======= -->
-<section id="contact" class="contact">
+<section id="contact" class="contact mt-5">
     <div class="container" data-aos="fade-up">
 
         <div class="section-title">
@@ -27,19 +27,20 @@
                     <div class="address">
                         <i class="bi bi-geo-alt"></i>
                         <h4>Location:</h4>
-                        <p>A108 Adam Street, New York, NY 535022</p>
+                        <p>3050 Post Oak Boulevard Suite 510, Houston, TX 77056, USA</p>
                     </div>
 
                     <div class="email">
                         <i class="bi bi-envelope"></i>
                         <h4>Email:</h4>
-                        <p>info@example.com</p>
+                        <p>info@eteqgroup.com</p>
                     </div>
 
                     <div class="phone">
                         <i class="bi bi-phone"></i>
                         <h4>Call:</h4>
-                        <p>+1 5589 55488 55s</p>
+                        <p>(832) 269-4474</p>
+                            <p>832-2694474</p>
                     </div>
 
                 </div>
