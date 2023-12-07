@@ -427,7 +427,7 @@
                             <div class="row">
                                 <div class="col-md-6 d-md-flex align-items-md-stretch">
                                     <div class="count-box">
-                                        <i class="bi bi-tv"></i>>
+                                        <i class="bi bi-tv"></i>
                                         {{-- <span data-purecounter-start="0" data-purecounter-end="65"
                                             data-purecounter-duration="2" class="purecounter"></span> --}}
                                         <p><strong>Technology</strong> 
